@@ -1,0 +1,68 @@
+:root{
+    --color1: #fff;
+    --color2: #141414;
+}
+body{
+    font-family: 'TT travels', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color1);
+}
+
+.color1 {
+    color: var(--color1);
+}
+
+.color2 {
+    color: var(--color2);
+}
+
+.bg1{
+    background-color: var(--color1);
+}
+.bg2{
+    background-color: var(--color2);
+}
+
+/* Header */
+
+header, section{
+    padding: 70px 0;
+}
+header{
+    padding-top: 30px;
+}
+.hc-image{
+    margin: auto 0;
+}
+.hc-bg-text{
+    line-height: 1;
+    opacity: 70%;
+}
+.hc-btn{
+    background-color: #1C1C1C;
+    border: 2px solid var(--color1);
+    border-radius: 70px;
+    padding: 10px 20px 13px;
+    font-weight: 700;
+    color: var(--color1);
+    width: 180px;
+    text-transform: lowercase;
+}
+.hc-btn:hover{
+    color: var(--color2);
+    background-color: var(--color1);
+}
+#return:hover{
+    border-color: var(--color2);
+}
+
+.carousel-item img{
+    display: block;
+    max-width: 600px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}

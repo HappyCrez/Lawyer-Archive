@@ -68,3 +68,12 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Адаптивность */
+
+@media (min-width: 1200px) {
+    .accordion{
+        max-height: 276px;
+        overflow: hidden;
+    }   
+}
